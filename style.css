@@ -17,13 +17,14 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
 .half-width {
     width: 35%;
     padding: 10%;
+
 }
 
 .half-width img {
@@ -68,6 +69,36 @@ section {
     background-position: right;
 }
 
-.box-section {
-    display: flex;
+.experinces{
+    margin-left: 20px;
+}
+.full-stack {
+    width: 45%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-left: 5px solid #FF6347;
+    height: 350px;
+}
+
+.baby-dev {
+    width: 45%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-left: 5px solid blue;
+    height: 350px;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 50px;
 }
