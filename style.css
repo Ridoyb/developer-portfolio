@@ -5,6 +5,8 @@ body {
 
 .welcome-text {
     padding-left: 25px;
+    padding-top: 25px;
+    width: 65%;
 }
 
 h1 {
@@ -20,7 +22,7 @@ section {
 }
 
 .half-width {
-    width: 100%;
+    width: 35%;
     padding: 10%;
 }
 
@@ -42,4 +44,30 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.ridoy-image2 {
+    width: 35%;
+}
+
+.ridoy-image2 img {
+    width: 100%;
+}
+
+.dream-big {
+    padding-right: 25px;
+    padding-top: 25px;
+    width: 65%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.middle-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.box-section {
+    display: flex;
 }
